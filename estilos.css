@@ -1,0 +1,54 @@
+header{
+    background-color: #607d8b;
+}
+
+header a{
+    color: white;
+    text-align: right;
+    padding: 5px;
+}
+
+header h1{
+    color: white;
+}
+
+main {
+    margin-top: 30px;
+}
+
+main p{
+    text-align: justify;
+}
+
+main aside{
+    border-left: black solid 2px;
+}
+
+main aside a{
+    display: block;
+    margin-left: 5px;
+}
+
+.widget{
+    margin-top: 30px
+}
+
+footer{
+    padding-top:  100px;
+    background-color: #b0bec5;
+    font-size: 24px;
+    text-align: center;
+    height: 300px;    
+}
+
+@media screen and (max-width:768px) {
+    main aside a {
+        display:inline-block;
+        
+    }
+}
+
+
+
+
+
